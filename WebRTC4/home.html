@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  
+  <title>Main Page</title>
+
+  <link rel="stylesheet" href="css/main.css" />
+
+</head>
+
+<body>
+  <div class="header">
+    <div style="height: 50px; background-color: #203857; color: white;">
+      <h1>Main Page</h1>
+    </div>
+  </div>
+  
+  <div class="content">
+    <p><input type="button" id="makeRoom" value="makeRoom" onclick="fnMakeRoom()" style="width : 100px; float: left;"></input>
+      <input type="button" id="reload" value="reload" onclick="fnReload()" style="width : 100px; float: left;"></input></p>
+    <br><br>
+    <div id="container" style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-around;">
+      <!-- context-->
+    </div>
+  </div>
+
+  <div class="footer">
+
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+  <script src="js/home.js"></script>
+
+</body>
+
+</html>

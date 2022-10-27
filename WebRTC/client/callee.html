@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>WebRTC</title>
+</head>
+<body>
+	<p>callee</p>
+	<!--내 얼굴이 나올 video 요소-->
+	<video id="localVideo" autoplay playsinline width="480px"></video>
+	<!--상대방의 얼굴이 나올 video 요소-->
+	<video id="remoteVideo" autoplay playsinline width="480px"></video>
+	<script src="callee.js"></script>
+
+	<script src="/socket.io/socket.io.js"></script> <!--서버측 socket.io에서 서빙되는 socket.io.js를 추가-->
+	<script src="callee.js" type="module"></script> <!--type="module" 추가-->
+</body>
+</html>

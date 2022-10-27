@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>Realtime communication with WebRTC</title>
+
+  <link rel="stylesheet" href="/css/main.css" />
+
+</head>
+
+<body>
+
+  <h1>Realtime communication with WebRTC</h1>
+
+
+  <div id="videoDiv">
+    <div>
+      <video id="localVideo" autoplay muted playsinline></video>
+      <video id="remoteVideo" autoplay playsinline></video>
+    </div>
+
+    <h2 id="userNum"></h2>
+    <h2 id="createUserId"></h2>
+    <h2 id="guestUserId"></h2>
+
+    <div>
+      <input type="button" value="exit" id="closeButton" onclick="fnExitRoom()"></input>
+    </div>
+
+
+    <!-- This file is automatically added/served when running "node index.js". -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  h1 {
+    height: 50px;
+    background-color: #203857;
+    color: white;
+  }
+  
+  video {
+    max-width: 100%;
+    width: 640px;
+  }
+  
+  #container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-round;
+  }

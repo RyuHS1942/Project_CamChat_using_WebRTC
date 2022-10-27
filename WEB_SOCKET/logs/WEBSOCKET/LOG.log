@@ -1,0 +1,721 @@
+13:03:13.584 [main] ERROR o.s.b.SpringApplication - Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.conditional.IfAction - Could not find Janino library on the class path. Skipping conditional processing.
+ERROR in ch.qos.logback.core.joran.conditional.IfAction - See also http://logback.qos.ch/codes.html#ifJanino
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:327)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:320)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1313)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at com.webapp.webscoket.WebSocketApplication.main(WebSocketApplication.java:10)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.conditional.IfAction - Could not find Janino library on the class path. Skipping conditional processing.
+ERROR in ch.qos.logback.core.joran.conditional.IfAction - See also http://logback.qos.ch/codes.html#ifJanino
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:232)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:312)
+	... 18 common frames omitted
+13:06:25.724 [main] ERROR o.s.b.SpringApplication - Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@5:82 - no applicable action for [springProperty], current ElementPath  is [[configuration][springProperty]]
+ERROR in ch.qos.logback.core.joran.conditional.IfAction - Could not find Janino library on the class path. Skipping conditional processing.
+ERROR in ch.qos.logback.core.joran.conditional.IfAction - See also http://logback.qos.ch/codes.html#ifJanino
+ERROR in ch.qos.logback.core.joran.conditional.IfAction - Could not find Janino library on the class path. Skipping conditional processing.
+ERROR in ch.qos.logback.core.joran.conditional.IfAction - See also http://logback.qos.ch/codes.html#ifJanino
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:327)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:320)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1313)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at com.webapp.webscoket.WebSocketApplication.main(WebSocketApplication.java:10)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@5:82 - no applicable action for [springProperty], current ElementPath  is [[configuration][springProperty]]
+ERROR in ch.qos.logback.core.joran.conditional.IfAction - Could not find Janino library on the class path. Skipping conditional processing.
+ERROR in ch.qos.logback.core.joran.conditional.IfAction - See also http://logback.qos.ch/codes.html#ifJanino
+ERROR in ch.qos.logback.core.joran.conditional.IfAction - Could not find Janino library on the class path. Skipping conditional processing.
+ERROR in ch.qos.logback.core.joran.conditional.IfAction - See also http://logback.qos.ch/codes.html#ifJanino
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithSpecificConfig(AbstractLoggingSystem.java:66)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:57)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:315)
+	... 18 common frames omitted
+13:08:31.944 [main] ERROR o.s.b.SpringApplication - Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@5:82 - no applicable action for [springProperty], current ElementPath  is [[configuration][springProperty]]
+ERROR in ch.qos.logback.core.joran.conditional.IfAction - Could not find Janino library on the class path. Skipping conditional processing.
+ERROR in ch.qos.logback.core.joran.conditional.IfAction - See also http://logback.qos.ch/codes.html#ifJanino
+ERROR in ch.qos.logback.core.joran.conditional.IfAction - Could not find Janino library on the class path. Skipping conditional processing.
+ERROR in ch.qos.logback.core.joran.conditional.IfAction - See also http://logback.qos.ch/codes.html#ifJanino
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:327)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:320)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1313)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at com.webapp.webscoket.WebSocketApplication.main(WebSocketApplication.java:10)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@5:82 - no applicable action for [springProperty], current ElementPath  is [[configuration][springProperty]]
+ERROR in ch.qos.logback.core.joran.conditional.IfAction - Could not find Janino library on the class path. Skipping conditional processing.
+ERROR in ch.qos.logback.core.joran.conditional.IfAction - See also http://logback.qos.ch/codes.html#ifJanino
+ERROR in ch.qos.logback.core.joran.conditional.IfAction - Could not find Janino library on the class path. Skipping conditional processing.
+ERROR in ch.qos.logback.core.joran.conditional.IfAction - See also http://logback.qos.ch/codes.html#ifJanino
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithSpecificConfig(AbstractLoggingSystem.java:66)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:57)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:315)
+	... 18 common frames omitted
+13:08:57.577 [main] ERROR o.s.b.SpringApplication - Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.conditional.IfAction - Could not find Janino library on the class path. Skipping conditional processing.
+ERROR in ch.qos.logback.core.joran.conditional.IfAction - See also http://logback.qos.ch/codes.html#ifJanino
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:327)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:320)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1313)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at com.webapp.webscoket.WebSocketApplication.main(WebSocketApplication.java:10)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.conditional.IfAction - Could not find Janino library on the class path. Skipping conditional processing.
+ERROR in ch.qos.logback.core.joran.conditional.IfAction - See also http://logback.qos.ch/codes.html#ifJanino
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:232)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:312)
+	... 18 common frames omitted
+13:14:55.323 [main] ERROR o.s.b.SpringApplication - Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@5:82 - no applicable action for [springProperty], current ElementPath  is [[configuration][springProperty]]
+ERROR in ch.qos.logback.core.joran.conditional.IfAction - Could not find Janino library on the class path. Skipping conditional processing.
+ERROR in ch.qos.logback.core.joran.conditional.IfAction - See also http://logback.qos.ch/codes.html#ifJanino
+ERROR in ch.qos.logback.core.joran.conditional.IfAction - Could not find Janino library on the class path. Skipping conditional processing.
+ERROR in ch.qos.logback.core.joran.conditional.IfAction - See also http://logback.qos.ch/codes.html#ifJanino
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:327)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:320)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1313)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at com.webapp.webscoket.WebSocketApplication.main(WebSocketApplication.java:10)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@5:82 - no applicable action for [springProperty], current ElementPath  is [[configuration][springProperty]]
+ERROR in ch.qos.logback.core.joran.conditional.IfAction - Could not find Janino library on the class path. Skipping conditional processing.
+ERROR in ch.qos.logback.core.joran.conditional.IfAction - See also http://logback.qos.ch/codes.html#ifJanino
+ERROR in ch.qos.logback.core.joran.conditional.IfAction - Could not find Janino library on the class path. Skipping conditional processing.
+ERROR in ch.qos.logback.core.joran.conditional.IfAction - See also http://logback.qos.ch/codes.html#ifJanino
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithSpecificConfig(AbstractLoggingSystem.java:66)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:57)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:315)
+	... 18 common frames omitted
+13:15:14.575 [main] ERROR o.s.b.SpringApplication - Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.conditional.IfAction - Could not find Janino library on the class path. Skipping conditional processing.
+ERROR in ch.qos.logback.core.joran.conditional.IfAction - See also http://logback.qos.ch/codes.html#ifJanino
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:327)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:320)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1313)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at com.webapp.webscoket.WebSocketApplication.main(WebSocketApplication.java:10)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.conditional.IfAction - Could not find Janino library on the class path. Skipping conditional processing.
+ERROR in ch.qos.logback.core.joran.conditional.IfAction - See also http://logback.qos.ch/codes.html#ifJanino
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:232)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:312)
+	... 18 common frames omitted
+13:16:03.590 [main] ERROR o.s.b.SpringApplication - Application run failed
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.conditional.IfAction - Could not find Janino library on the class path. Skipping conditional processing.
+ERROR in ch.qos.logback.core.joran.conditional.IfAction - See also http://logback.qos.ch/codes.html#ifJanino
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:327)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:320)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1313)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at com.webapp.webscoket.WebSocketApplication.main(WebSocketApplication.java:10)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.conditional.IfAction - Could not find Janino library on the class path. Skipping conditional processing.
+ERROR in ch.qos.logback.core.joran.conditional.IfAction - See also http://logback.qos.ch/codes.html#ifJanino
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:232)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:312)
+	... 18 common frames omitted
+13:17:06.681 [main] DEBUG o.s.w.s.s.s.WebSocketHandlerMapping - Patterns [/chating] in 'webSocketHandlerMapping'
+13:17:06.800 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+13:17:06.845 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 4 mappings in 'requestMappingHandlerMapping'
+13:17:06.868 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+13:17:06.874 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+13:17:22.935 [http-nio-18092-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+13:17:22.936 [http-nio-18092-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected StandardServletMultipartResolver
+13:17:22.936 [http-nio-18092-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+13:17:22.936 [http-nio-18092-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected FixedThemeResolver
+13:17:22.937 [http-nio-18092-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@b3232a6
+13:17:22.937 [http-nio-18092-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@254d785b
+13:17:22.937 [http-nio-18092-exec-1] DEBUG o.s.w.s.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+13:17:22.937 [http-nio-18092-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+13:17:22.946 [http-nio-18092-exec-1] DEBUG o.s.w.s.DispatcherServlet - GET "/chat", parameters={}
+13:17:22.949 [http-nio-18092-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.webapp.webscoket.controller.MainController#frontChat(Map, HttpServletRequest, HttpServletResponse, ModelMap)
+13:17:22.968 [http-nio-18092-exec-1] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+13:17:23.252 [http-nio-18092-exec-1] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+13:17:27.075 [http-nio-18092-exec-2] DEBUG o.s.w.s.DispatcherServlet - GET "/chating", parameters={}
+13:17:27.078 [http-nio-18092-exec-2] DEBUG o.s.w.s.s.s.WebSocketHandlerMapping - Mapped to org.springframework.web.socket.server.support.WebSocketHttpRequestHandler@5a6482a9
+13:17:27.084 [http-nio-18092-exec-2] DEBUG o.s.w.s.s.s.WebSocketHttpRequestHandler - GET /chating
+13:17:27.118 [http-nio-18092-exec-2] DEBUG o.s.w.s.DispatcherServlet - Completed 101 SWITCHING_PROTOCOLS
+13:17:27.131 [http-nio-18092-exec-2] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - New StandardWebSocketSession[id=81eb1c9a-31fd-b58b-b021-2f8d08f4b984, uri=ws://localhost:18092/chating]
+13:18:46.942 [main] DEBUG o.s.t.c.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+13:18:46.956 [main] DEBUG o.s.t.c.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+13:18:47.009 [main] DEBUG o.s.t.c.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.webapp.webscoket.WebSocketApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+13:18:47.023 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.webapp.webscoket.WebSocketApplicationTests], using SpringBootContextLoader
+13:18:47.028 [main] DEBUG o.s.t.c.s.AbstractContextLoader - Did not detect default resource location for test class [com.webapp.webscoket.WebSocketApplicationTests]: class path resource [com/webapp/webscoket/WebSocketApplicationTests-context.xml] does not exist
+13:18:47.028 [main] DEBUG o.s.t.c.s.AbstractContextLoader - Did not detect default resource location for test class [com.webapp.webscoket.WebSocketApplicationTests]: class path resource [com/webapp/webscoket/WebSocketApplicationTestsContext.groovy] does not exist
+13:18:47.029 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.webapp.webscoket.WebSocketApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+13:18:47.030 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.webapp.webscoket.WebSocketApplicationTests]: WebSocketApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:18:47.087 [main] DEBUG o.s.t.c.s.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.webapp.webscoket.WebSocketApplicationTests]
+13:18:47.181 [main] DEBUG o.s.c.a.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\sts-4.2.1.RELEASE\project\WEB_SOCKET\target\classes\com\webapp\webscoket\WebSocketApplication.class]
+13:18:47.182 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.webapp.webscoket.WebSocketApplication for test class com.webapp.webscoket.WebSocketApplicationTests
+13:18:47.295 [main] DEBUG o.s.b.t.c.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.webapp.webscoket.WebSocketApplicationTests]: using defaults.
+13:18:47.297 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+13:18:47.312 [main] DEBUG o.s.b.t.c.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+13:18:47.313 [main] DEBUG o.s.b.t.c.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+13:18:47.314 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3403e2ac, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@65b104b9, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@6c4980d3, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@327bcebd, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@19c65cdc, org.springframework.test.context.support.DirtiesContextTestExecutionListener@74bf1791, org.springframework.test.context.event.EventPublishingTestExecutionListener@54504ecd, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@38b27cdc, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1339e7aa, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1fb669c3, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@49c66ade, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6239aba6, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3e6104fc]
+13:18:47.320 [main] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@b4711e2 testClass = WebSocketApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@1fa1cab1 testClass = WebSocketApplicationTests, locations = '{}', classes = '{class com.webapp.webscoket.WebSocketApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3c77d488, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@d86a6f, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@7d0b7e3c, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@7674f035, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@19e4653c, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@59fa1d9b], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+13:18:47.380 [main] DEBUG o.s.t.c.s.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+13:18:48.067 [main] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@549949be
+13:18:48.815 [main] DEBUG o.s.w.s.s.s.WebSocketHandlerMapping - Patterns [/chating] in 'webSocketHandlerMapping'
+13:18:49.362 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+13:18:49.457 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 4 mappings in 'requestMappingHandlerMapping'
+13:18:49.520 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+13:18:49.536 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+13:18:50.016 [SpringContextShutdownHook] DEBUG o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@549949be, started on Tue Mar 23 13:18:48 KST 2021
+13:38:01.614 [http-nio-18092-exec-4] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - StandardWebSocketSession[id=81eb1c9a-31fd-b58b-b021-2f8d08f4b984, uri=ws://localhost:18092/chating] closed with CloseStatus[code=1001, reason=null]
+09:40:08.685 [main] DEBUG o.s.w.s.s.s.WebSocketHandlerMapping - Patterns [/chating] in 'webSocketHandlerMapping'
+09:40:08.804 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+09:40:08.850 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 4 mappings in 'requestMappingHandlerMapping'
+09:40:08.874 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+09:40:08.880 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+09:43:29.566 [http-nio-18092-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+09:43:29.567 [http-nio-18092-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected StandardServletMultipartResolver
+09:43:29.567 [http-nio-18092-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+09:43:29.567 [http-nio-18092-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected FixedThemeResolver
+09:43:29.568 [http-nio-18092-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1067a1e4
+09:43:29.568 [http-nio-18092-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@43c9458f
+09:43:29.568 [http-nio-18092-exec-1] DEBUG o.s.w.s.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+09:43:29.568 [http-nio-18092-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 2 ms
+09:43:29.578 [http-nio-18092-exec-1] DEBUG o.s.w.s.DispatcherServlet - GET "/", parameters={}
+09:43:29.582 [http-nio-18092-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.webapp.webscoket.controller.MainController#home()
+09:43:29.598 [http-nio-18092-exec-1] DEBUG o.s.w.s.v.RedirectView - View name 'redirect:', model {}
+09:43:29.599 [http-nio-18092-exec-1] DEBUG o.s.w.s.DispatcherServlet - Completed 302 FOUND
+09:43:29.607 [http-nio-18092-exec-2] DEBUG o.s.w.s.DispatcherServlet - GET "/chat", parameters={}
+09:43:29.607 [http-nio-18092-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.webapp.webscoket.controller.MainController#frontChat(Map, HttpServletRequest, HttpServletResponse, ModelMap)
+09:43:29.616 [http-nio-18092-exec-2] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+09:43:29.898 [http-nio-18092-exec-2] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+09:43:30.258 [http-nio-18092-exec-3] DEBUG o.s.w.s.DispatcherServlet - GET "/favicon.ico", parameters={}
+09:43:30.264 [http-nio-18092-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+09:43:30.267 [http-nio-18092-exec-3] DEBUG o.s.w.s.r.ResourceHttpRequestHandler - Resource not found
+09:43:30.267 [http-nio-18092-exec-3] DEBUG o.s.w.s.DispatcherServlet - Completed 404 NOT_FOUND
+09:43:30.274 [http-nio-18092-exec-3] DEBUG o.s.w.s.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+09:43:30.275 [http-nio-18092-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+09:43:30.294 [http-nio-18092-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+09:43:30.294 [http-nio-18092-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Mon Jun 21 09:43:30 KST 2021, status=404, error=Not Found, message=, path=/favicon.ico}]
+09:43:30.345 [http-nio-18092-exec-3] DEBUG o.s.w.s.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+09:45:04.799 [http-nio-18092-exec-6] DEBUG o.s.w.s.DispatcherServlet - GET "/chating", parameters={}
+09:45:04.799 [http-nio-18092-exec-6] DEBUG o.s.w.s.s.s.WebSocketHandlerMapping - Mapped to org.springframework.web.socket.server.support.WebSocketHttpRequestHandler@127f9161
+09:45:04.801 [http-nio-18092-exec-6] DEBUG o.s.w.s.s.s.WebSocketHttpRequestHandler - GET /chating
+09:45:04.838 [http-nio-18092-exec-6] DEBUG o.s.w.s.DispatcherServlet - Completed 101 SWITCHING_PROTOCOLS
+09:45:04.851 [http-nio-18092-exec-6] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - New StandardWebSocketSession[id=c73af77b-f0a0-e0b3-6693-e916630bcca3, uri=ws://localhost:18092/chating]
+09:52:55.018 [http-nio-18092-exec-7] DEBUG o.s.w.s.DispatcherServlet - GET "/chating", parameters={}
+09:52:55.020 [http-nio-18092-exec-7] DEBUG o.s.w.s.s.s.WebSocketHandlerMapping - Mapped to org.springframework.web.socket.server.support.WebSocketHttpRequestHandler@127f9161
+09:52:55.021 [http-nio-18092-exec-7] DEBUG o.s.w.s.s.s.WebSocketHttpRequestHandler - GET /chating
+09:52:55.026 [http-nio-18092-exec-7] DEBUG o.s.w.s.DispatcherServlet - Completed 101 SWITCHING_PROTOCOLS
+09:52:55.030 [http-nio-18092-exec-7] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - New StandardWebSocketSession[id=9d3e8899-8419-e4db-322e-acf0292626d5, uri=ws://192.168.0.59:18092/chating]
+10:10:31.944 [http-nio-18092-exec-2] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - StandardWebSocketSession[id=c73af77b-f0a0-e0b3-6693-e916630bcca3, uri=ws://localhost:18092/chating] closed with CloseStatus[code=1000, reason=null]
+10:10:42.377 [http-nio-18092-exec-3] DEBUG o.s.w.s.DispatcherServlet - GET "/chating", parameters={}
+10:10:42.378 [http-nio-18092-exec-3] DEBUG o.s.w.s.s.s.WebSocketHandlerMapping - Mapped to org.springframework.web.socket.server.support.WebSocketHttpRequestHandler@127f9161
+10:10:42.378 [http-nio-18092-exec-3] DEBUG o.s.w.s.s.s.WebSocketHttpRequestHandler - GET /chating
+10:10:42.380 [http-nio-18092-exec-3] DEBUG o.s.w.s.DispatcherServlet - Completed 101 SWITCHING_PROTOCOLS
+10:10:42.381 [http-nio-18092-exec-3] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - New StandardWebSocketSession[id=82d8fc19-b87a-8a61-4149-21017d67d6c4, uri=ws://localhost:18092/chating]
+10:26:25.533 [http-nio-18092-exec-4] DEBUG o.s.w.s.DispatcherServlet - GET "/chat", parameters={}
+10:26:25.534 [http-nio-18092-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.webapp.webscoket.controller.MainController#frontChat(Map, HttpServletRequest, HttpServletResponse, ModelMap)
+10:26:25.537 [http-nio-18092-exec-4] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+10:26:25.539 [http-nio-18092-exec-4] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+10:26:25.556 [http-nio-18092-exec-6] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - StandardWebSocketSession[id=82d8fc19-b87a-8a61-4149-21017d67d6c4, uri=ws://localhost:18092/chating] closed with CloseStatus[code=1001, reason=null]
+10:26:40.959 [http-nio-18092-exec-7] DEBUG o.s.w.s.DispatcherServlet - GET "/chat", parameters={}
+10:26:40.960 [http-nio-18092-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.webapp.webscoket.controller.MainController#frontChat(Map, HttpServletRequest, HttpServletResponse, ModelMap)
+10:26:40.962 [http-nio-18092-exec-7] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+10:26:40.968 [http-nio-18092-exec-7] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+10:30:38.208 [http-nio-18092-exec-10] DEBUG o.s.w.s.DispatcherServlet - GET "/chating", parameters={}
+10:30:38.209 [http-nio-18092-exec-10] DEBUG o.s.w.s.s.s.WebSocketHandlerMapping - Mapped to org.springframework.web.socket.server.support.WebSocketHttpRequestHandler@127f9161
+10:30:38.209 [http-nio-18092-exec-10] DEBUG o.s.w.s.s.s.WebSocketHttpRequestHandler - GET /chating
+10:30:38.211 [http-nio-18092-exec-10] DEBUG o.s.w.s.DispatcherServlet - Completed 101 SWITCHING_PROTOCOLS
+10:30:38.213 [http-nio-18092-exec-10] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - New StandardWebSocketSession[id=32c58316-9372-07f5-bc1c-514b3fef4af2, uri=ws://localhost:18092/chating]
+10:30:45.326 [http-nio-18092-exec-2] DEBUG o.s.w.s.DispatcherServlet - GET "/chat", parameters={}
+10:30:45.327 [http-nio-18092-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.webapp.webscoket.controller.MainController#frontChat(Map, HttpServletRequest, HttpServletResponse, ModelMap)
+10:30:45.328 [http-nio-18092-exec-2] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+10:30:45.330 [http-nio-18092-exec-2] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+10:30:52.646 [http-nio-18092-exec-3] DEBUG o.s.w.s.DispatcherServlet - GET "/chating", parameters={}
+10:30:52.647 [http-nio-18092-exec-3] DEBUG o.s.w.s.s.s.WebSocketHandlerMapping - Mapped to org.springframework.web.socket.server.support.WebSocketHttpRequestHandler@127f9161
+10:30:52.647 [http-nio-18092-exec-3] DEBUG o.s.w.s.s.s.WebSocketHttpRequestHandler - GET /chating
+10:30:52.648 [http-nio-18092-exec-3] DEBUG o.s.w.s.DispatcherServlet - Completed 101 SWITCHING_PROTOCOLS
+10:30:52.650 [http-nio-18092-exec-3] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - New StandardWebSocketSession[id=762f270d-ad58-806d-2793-e80c651628fe, uri=ws://localhost:18092/chating]
+10:31:11.199 [http-nio-18092-exec-6] DEBUG o.s.w.s.DispatcherServlet - GET "/chat", parameters={}
+10:31:11.199 [http-nio-18092-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.webapp.webscoket.controller.MainController#frontChat(Map, HttpServletRequest, HttpServletResponse, ModelMap)
+10:31:11.201 [http-nio-18092-exec-6] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+10:31:11.203 [http-nio-18092-exec-6] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+10:31:11.211 [http-nio-18092-exec-7] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - StandardWebSocketSession[id=762f270d-ad58-806d-2793-e80c651628fe, uri=ws://localhost:18092/chating] closed with CloseStatus[code=1001, reason=null]
+10:31:15.263 [http-nio-18092-exec-8] DEBUG o.s.w.s.DispatcherServlet - GET "/chating", parameters={}
+10:31:15.264 [http-nio-18092-exec-8] DEBUG o.s.w.s.s.s.WebSocketHandlerMapping - Mapped to org.springframework.web.socket.server.support.WebSocketHttpRequestHandler@127f9161
+10:31:15.264 [http-nio-18092-exec-8] DEBUG o.s.w.s.s.s.WebSocketHttpRequestHandler - GET /chating
+10:31:15.266 [http-nio-18092-exec-8] DEBUG o.s.w.s.DispatcherServlet - Completed 101 SWITCHING_PROTOCOLS
+10:31:15.268 [http-nio-18092-exec-8] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - New StandardWebSocketSession[id=cada8de6-01ae-ca4f-9e2e-9ef3e724e95e, uri=ws://localhost:18092/chating]
+10:46:57.107 [http-nio-18092-exec-6] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - Transport error in StandardWebSocketSession[id=9d3e8899-8419-e4db-322e-acf0292626d5, uri=ws://192.168.0.59:18092/chating]
+java.io.IOException: 현재 연결은 원격 호스트에 의해 강제로 끊겼습니다
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.tomcat.util.net.NioChannel.read(NioChannel.java:160)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.fillReadBuffer(NioEndpoint.java:1343)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.read(NioEndpoint.java:1255)
+	at org.apache.tomcat.websocket.server.WsFrameServer.onDataAvailable(WsFrameServer.java:75)
+	at org.apache.tomcat.websocket.server.WsFrameServer.doOnDataAvailable(WsFrameServer.java:183)
+	at org.apache.tomcat.websocket.server.WsFrameServer.notifyDataAvailable(WsFrameServer.java:162)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler.upgradeDispatch(WsHttpUpgradeHandler.java:156)
+	at org.apache.coyote.http11.upgrade.UpgradeProcessorInternal.dispatch(UpgradeProcessorInternal.java:60)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:59)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+10:46:57.111 [http-nio-18092-exec-6] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - StandardWebSocketSession[id=9d3e8899-8419-e4db-322e-acf0292626d5, uri=ws://192.168.0.59:18092/chating] closed with CloseStatus[code=1006, reason=현재 연결은 원격 호스트에 의해 강제로 끊겼습니다]
+10:47:10.265 [http-nio-18092-exec-7] DEBUG o.s.w.s.DispatcherServlet - GET "/chating", parameters={}
+10:47:10.266 [http-nio-18092-exec-7] DEBUG o.s.w.s.s.s.WebSocketHandlerMapping - Mapped to org.springframework.web.socket.server.support.WebSocketHttpRequestHandler@127f9161
+10:47:10.267 [http-nio-18092-exec-7] DEBUG o.s.w.s.s.s.WebSocketHttpRequestHandler - GET /chating
+10:47:10.271 [http-nio-18092-exec-7] DEBUG o.s.w.s.DispatcherServlet - Completed 101 SWITCHING_PROTOCOLS
+10:47:10.275 [http-nio-18092-exec-7] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - New StandardWebSocketSession[id=40d4d196-0746-f2f6-617e-a91dfdf201b5, uri=ws://192.168.0.59:18092/chating]
+11:01:11.915 [http-nio-18092-exec-9] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - Transport error in StandardWebSocketSession[id=40d4d196-0746-f2f6-617e-a91dfdf201b5, uri=ws://192.168.0.59:18092/chating]
+java.io.IOException: 현재 연결은 원격 호스트에 의해 강제로 끊겼습니다
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.tomcat.util.net.NioChannel.read(NioChannel.java:160)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.fillReadBuffer(NioEndpoint.java:1343)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.read(NioEndpoint.java:1255)
+	at org.apache.tomcat.websocket.server.WsFrameServer.onDataAvailable(WsFrameServer.java:75)
+	at org.apache.tomcat.websocket.server.WsFrameServer.doOnDataAvailable(WsFrameServer.java:183)
+	at org.apache.tomcat.websocket.server.WsFrameServer.notifyDataAvailable(WsFrameServer.java:162)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler.upgradeDispatch(WsHttpUpgradeHandler.java:156)
+	at org.apache.coyote.http11.upgrade.UpgradeProcessorInternal.dispatch(UpgradeProcessorInternal.java:60)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:59)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+11:01:11.917 [http-nio-18092-exec-9] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - StandardWebSocketSession[id=40d4d196-0746-f2f6-617e-a91dfdf201b5, uri=ws://192.168.0.59:18092/chating] closed with CloseStatus[code=1006, reason=현재 연결은 원격 호스트에 의해 강제로 끊겼습니다]
+11:02:36.593 [http-nio-18092-exec-10] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - StandardWebSocketSession[id=32c58316-9372-07f5-bc1c-514b3fef4af2, uri=ws://localhost:18092/chating] closed with CloseStatus[code=1001, reason=null]
+11:04:19.076 [http-nio-18092-exec-1] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - StandardWebSocketSession[id=cada8de6-01ae-ca4f-9e2e-9ef3e724e95e, uri=ws://localhost:18092/chating] closed with CloseStatus[code=1001, reason=null]
+10:59:36.230 [main] DEBUG o.s.w.s.s.s.WebSocketHandlerMapping - Patterns [/chating] in 'webSocketHandlerMapping'
+10:59:36.310 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+10:59:36.339 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 4 mappings in 'requestMappingHandlerMapping'
+10:59:36.353 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+10:59:36.357 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+11:00:01.932 [http-nio-18092-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+11:00:01.933 [http-nio-18092-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected StandardServletMultipartResolver
+11:00:01.933 [http-nio-18092-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+11:00:01.933 [http-nio-18092-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected FixedThemeResolver
+11:00:01.934 [http-nio-18092-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6b5b94aa
+11:00:01.934 [http-nio-18092-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@5474e0cb
+11:00:01.934 [http-nio-18092-exec-1] DEBUG o.s.w.s.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+11:00:01.934 [http-nio-18092-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+11:00:01.939 [http-nio-18092-exec-1] DEBUG o.s.w.s.DispatcherServlet - GET "/", parameters={}
+11:00:01.941 [http-nio-18092-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.webapp.webscoket.controller.MainController#home()
+11:00:01.951 [http-nio-18092-exec-1] DEBUG o.s.w.s.v.RedirectView - View name 'redirect:', model {}
+11:00:01.951 [http-nio-18092-exec-1] DEBUG o.s.w.s.DispatcherServlet - Completed 302 FOUND
+11:00:01.955 [http-nio-18092-exec-2] DEBUG o.s.w.s.DispatcherServlet - GET "/chat", parameters={}
+11:00:01.956 [http-nio-18092-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.webapp.webscoket.controller.MainController#frontChat(Map, HttpServletRequest, HttpServletResponse, ModelMap)
+11:00:01.962 [http-nio-18092-exec-2] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+11:00:02.134 [http-nio-18092-exec-2] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+11:00:02.306 [http-nio-18092-exec-3] DEBUG o.s.w.s.DispatcherServlet - GET "/favicon.ico", parameters={}
+11:00:02.309 [http-nio-18092-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+11:00:02.311 [http-nio-18092-exec-3] DEBUG o.s.w.s.r.ResourceHttpRequestHandler - Resource not found
+11:00:02.311 [http-nio-18092-exec-3] DEBUG o.s.w.s.DispatcherServlet - Completed 404 NOT_FOUND
+11:00:02.314 [http-nio-18092-exec-3] DEBUG o.s.w.s.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+11:00:02.314 [http-nio-18092-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+11:00:02.325 [http-nio-18092-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+11:00:02.326 [http-nio-18092-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Tue Aug 02 11:00:02 KST 2022, status=404, error=Not Found, message=, path=/favicon.ico}]
+11:00:02.353 [http-nio-18092-exec-3] DEBUG o.s.w.s.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+11:00:04.777 [http-nio-18092-exec-4] DEBUG o.s.w.s.DispatcherServlet - GET "/chating", parameters={}
+11:00:04.778 [http-nio-18092-exec-4] DEBUG o.s.w.s.s.s.WebSocketHandlerMapping - Mapped to org.springframework.web.socket.server.support.WebSocketHttpRequestHandler@6ed06f69
+11:00:04.778 [http-nio-18092-exec-4] DEBUG o.s.w.s.s.s.WebSocketHttpRequestHandler - GET /chating
+11:00:04.800 [http-nio-18092-exec-4] DEBUG o.s.w.s.DispatcherServlet - Completed 101 SWITCHING_PROTOCOLS
+11:00:04.809 [http-nio-18092-exec-4] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - New StandardWebSocketSession[id=a7599bcf-e022-6199-0e9a-00cc2d9e757e, uri=ws://localhost:18092/chating]
+11:00:19.600 [http-nio-18092-exec-5] DEBUG o.s.w.s.DispatcherServlet - GET "/chat", parameters={}
+11:00:19.600 [http-nio-18092-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.webapp.webscoket.controller.MainController#frontChat(Map, HttpServletRequest, HttpServletResponse, ModelMap)
+11:00:19.601 [http-nio-18092-exec-5] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+11:00:19.603 [http-nio-18092-exec-5] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+11:00:25.794 [http-nio-18092-exec-6] DEBUG o.s.w.s.DispatcherServlet - GET "/chating", parameters={}
+11:00:25.794 [http-nio-18092-exec-6] DEBUG o.s.w.s.s.s.WebSocketHandlerMapping - Mapped to org.springframework.web.socket.server.support.WebSocketHttpRequestHandler@6ed06f69
+11:00:25.794 [http-nio-18092-exec-6] DEBUG o.s.w.s.s.s.WebSocketHttpRequestHandler - GET /chating
+11:00:25.795 [http-nio-18092-exec-6] DEBUG o.s.w.s.DispatcherServlet - Completed 101 SWITCHING_PROTOCOLS
+11:00:25.796 [http-nio-18092-exec-6] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - New StandardWebSocketSession[id=a50fdc2e-1129-6a13-bb08-03133f121f92, uri=ws://localhost:18092/chating]
+11:00:45.155 [http-nio-18092-exec-8] DEBUG o.s.w.s.DispatcherServlet - GET "/chat", parameters={}
+11:00:45.155 [http-nio-18092-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.webapp.webscoket.controller.MainController#frontChat(Map, HttpServletRequest, HttpServletResponse, ModelMap)
+11:00:45.156 [http-nio-18092-exec-8] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+11:00:45.157 [http-nio-18092-exec-8] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+11:00:47.194 [http-nio-18092-exec-9] DEBUG o.s.w.s.DispatcherServlet - GET "/chating", parameters={}
+11:00:47.194 [http-nio-18092-exec-9] DEBUG o.s.w.s.s.s.WebSocketHandlerMapping - Mapped to org.springframework.web.socket.server.support.WebSocketHttpRequestHandler@6ed06f69
+11:00:47.194 [http-nio-18092-exec-9] DEBUG o.s.w.s.s.s.WebSocketHttpRequestHandler - GET /chating
+11:00:47.195 [http-nio-18092-exec-9] DEBUG o.s.w.s.DispatcherServlet - Completed 101 SWITCHING_PROTOCOLS
+11:00:47.196 [http-nio-18092-exec-9] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - New StandardWebSocketSession[id=a0b1ac11-06e2-0fb1-cec4-b12fc841d67e, uri=ws://localhost:18092/chating]
+11:01:06.585 [http-nio-18092-exec-4] DEBUG o.s.w.s.DispatcherServlet - GET "/chat", parameters={}
+11:01:06.585 [http-nio-18092-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.webapp.webscoket.controller.MainController#frontChat(Map, HttpServletRequest, HttpServletResponse, ModelMap)
+11:01:06.586 [http-nio-18092-exec-4] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+11:01:06.587 [http-nio-18092-exec-4] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+11:01:06.590 [http-nio-18092-exec-5] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - StandardWebSocketSession[id=a0b1ac11-06e2-0fb1-cec4-b12fc841d67e, uri=ws://localhost:18092/chating] closed with CloseStatus[code=1001, reason=null]
+11:01:10.176 [http-nio-18092-exec-6] DEBUG o.s.w.s.DispatcherServlet - GET "/chating", parameters={}
+11:01:10.176 [http-nio-18092-exec-6] DEBUG o.s.w.s.s.s.WebSocketHandlerMapping - Mapped to org.springframework.web.socket.server.support.WebSocketHttpRequestHandler@6ed06f69
+11:01:10.177 [http-nio-18092-exec-6] DEBUG o.s.w.s.s.s.WebSocketHttpRequestHandler - GET /chating
+11:01:10.177 [http-nio-18092-exec-6] DEBUG o.s.w.s.DispatcherServlet - Completed 101 SWITCHING_PROTOCOLS
+11:01:10.178 [http-nio-18092-exec-6] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - New StandardWebSocketSession[id=3b6ca9fd-e7a7-d17f-7be6-0a7cb229704c, uri=ws://localhost:18092/chating]
+11:01:12.002 [http-nio-18092-exec-8] DEBUG o.s.w.s.DispatcherServlet - GET "/chat", parameters={}
+11:01:12.002 [http-nio-18092-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.webapp.webscoket.controller.MainController#frontChat(Map, HttpServletRequest, HttpServletResponse, ModelMap)
+11:01:12.003 [http-nio-18092-exec-8] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+11:01:12.003 [http-nio-18092-exec-8] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+11:01:12.006 [http-nio-18092-exec-9] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - StandardWebSocketSession[id=a50fdc2e-1129-6a13-bb08-03133f121f92, uri=ws://localhost:18092/chating] closed with CloseStatus[code=1001, reason=null]
+11:01:15.064 [http-nio-18092-exec-2] DEBUG o.s.w.s.DispatcherServlet - GET "/chating", parameters={}
+11:01:15.065 [http-nio-18092-exec-2] DEBUG o.s.w.s.s.s.WebSocketHandlerMapping - Mapped to org.springframework.web.socket.server.support.WebSocketHttpRequestHandler@6ed06f69
+11:01:15.065 [http-nio-18092-exec-2] DEBUG o.s.w.s.s.s.WebSocketHttpRequestHandler - GET /chating
+11:01:15.066 [http-nio-18092-exec-2] DEBUG o.s.w.s.DispatcherServlet - Completed 101 SWITCHING_PROTOCOLS
+11:01:15.066 [http-nio-18092-exec-2] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - New StandardWebSocketSession[id=a1a649f7-12c4-eb5f-f903-d97b0c0d5061, uri=ws://localhost:18092/chating]
+11:01:17.155 [http-nio-18092-exec-10] DEBUG o.s.w.s.DispatcherServlet - GET "/chat", parameters={}
+11:01:17.156 [http-nio-18092-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.webapp.webscoket.controller.MainController#frontChat(Map, HttpServletRequest, HttpServletResponse, ModelMap)
+11:01:17.157 [http-nio-18092-exec-10] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+11:01:17.158 [http-nio-18092-exec-10] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+11:01:17.168 [http-nio-18092-exec-3] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - StandardWebSocketSession[id=a7599bcf-e022-6199-0e9a-00cc2d9e757e, uri=ws://localhost:18092/chating] closed with CloseStatus[code=1001, reason=null]
+11:01:20.048 [http-nio-18092-exec-4] DEBUG o.s.w.s.DispatcherServlet - GET "/chating", parameters={}
+11:01:20.049 [http-nio-18092-exec-4] DEBUG o.s.w.s.s.s.WebSocketHandlerMapping - Mapped to org.springframework.web.socket.server.support.WebSocketHttpRequestHandler@6ed06f69
+11:01:20.049 [http-nio-18092-exec-4] DEBUG o.s.w.s.s.s.WebSocketHttpRequestHandler - GET /chating
+11:01:20.050 [http-nio-18092-exec-4] DEBUG o.s.w.s.DispatcherServlet - Completed 101 SWITCHING_PROTOCOLS
+11:01:20.051 [http-nio-18092-exec-4] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - New StandardWebSocketSession[id=11b728cc-4fe3-2ad9-ad63-12ad66262c33, uri=ws://localhost:18092/chating]
+11:01:34.012 [http-nio-18092-exec-2] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - StandardWebSocketSession[id=a1a649f7-12c4-eb5f-f903-d97b0c0d5061, uri=ws://localhost:18092/chating] closed with CloseStatus[code=1001, reason=null]
+11:01:34.843 [http-nio-18092-exec-1] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - StandardWebSocketSession[id=3b6ca9fd-e7a7-d17f-7be6-0a7cb229704c, uri=ws://localhost:18092/chating] closed with CloseStatus[code=1001, reason=null]
+11:01:47.890 [http-nio-18092-exec-3] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - StandardWebSocketSession[id=11b728cc-4fe3-2ad9-ad63-12ad66262c33, uri=ws://localhost:18092/chating] closed with CloseStatus[code=1001, reason=null]
+14:28:34.926 [main] DEBUG o.s.w.s.s.s.WebSocketHandlerMapping - Patterns [/chating] in 'webSocketHandlerMapping'
+14:28:35.020 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+14:28:35.055 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 4 mappings in 'requestMappingHandlerMapping'
+14:28:35.071 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+14:28:35.076 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+14:29:10.954 [http-nio-18092-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:29:10.955 [http-nio-18092-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected StandardServletMultipartResolver
+14:29:10.955 [http-nio-18092-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+14:29:10.955 [http-nio-18092-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected FixedThemeResolver
+14:29:10.956 [http-nio-18092-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5ee2850d
+14:29:10.956 [http-nio-18092-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@624a61fc
+14:29:10.956 [http-nio-18092-exec-1] DEBUG o.s.w.s.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:29:10.956 [http-nio-18092-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+14:29:10.961 [http-nio-18092-exec-1] DEBUG o.s.w.s.DispatcherServlet - GET "/", parameters={}
+14:29:10.963 [http-nio-18092-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.webapp.webscoket.controller.MainController#home()
+14:29:10.972 [http-nio-18092-exec-1] DEBUG o.s.w.s.v.RedirectView - View name 'redirect:', model {}
+14:29:10.973 [http-nio-18092-exec-1] DEBUG o.s.w.s.DispatcherServlet - Completed 302 FOUND
+14:29:10.977 [http-nio-18092-exec-2] DEBUG o.s.w.s.DispatcherServlet - GET "/chat", parameters={}
+14:29:10.978 [http-nio-18092-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.webapp.webscoket.controller.MainController#frontChat(Map, HttpServletRequest, HttpServletResponse, ModelMap)
+14:29:10.983 [http-nio-18092-exec-2] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+14:29:11.185 [http-nio-18092-exec-2] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+14:29:11.463 [http-nio-18092-exec-3] DEBUG o.s.w.s.DispatcherServlet - GET "/favicon.ico", parameters={}
+14:29:11.465 [http-nio-18092-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+14:29:11.467 [http-nio-18092-exec-3] DEBUG o.s.w.s.r.ResourceHttpRequestHandler - Resource not found
+14:29:11.467 [http-nio-18092-exec-3] DEBUG o.s.w.s.DispatcherServlet - Completed 404 NOT_FOUND
+14:29:11.470 [http-nio-18092-exec-3] DEBUG o.s.w.s.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+14:29:11.471 [http-nio-18092-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+14:29:11.484 [http-nio-18092-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+14:29:11.485 [http-nio-18092-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Mon Oct 24 14:29:11 KST 2022, status=404, error=Not Found, message=, path=/favicon.ico}]
+14:29:11.515 [http-nio-18092-exec-3] DEBUG o.s.w.s.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+14:29:18.546 [http-nio-18092-exec-4] DEBUG o.s.w.s.DispatcherServlet - GET "/chating", parameters={}
+14:29:18.546 [http-nio-18092-exec-4] DEBUG o.s.w.s.s.s.WebSocketHandlerMapping - Mapped to org.springframework.web.socket.server.support.WebSocketHttpRequestHandler@5a6482a9
+14:29:18.547 [http-nio-18092-exec-4] DEBUG o.s.w.s.s.s.WebSocketHttpRequestHandler - GET /chating
+14:29:18.567 [http-nio-18092-exec-4] DEBUG o.s.w.s.DispatcherServlet - Completed 101 SWITCHING_PROTOCOLS
+14:29:18.576 [http-nio-18092-exec-4] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - New StandardWebSocketSession[id=f3144629-bf6f-b6d9-7bd3-318d23ab17b0, uri=ws://localhost:18092/chating]
+14:29:28.760 [http-nio-18092-exec-6] DEBUG o.s.w.s.DispatcherServlet - GET "/chat", parameters={}
+14:29:28.761 [http-nio-18092-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.webapp.webscoket.controller.MainController#frontChat(Map, HttpServletRequest, HttpServletResponse, ModelMap)
+14:29:28.762 [http-nio-18092-exec-6] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+14:29:28.764 [http-nio-18092-exec-6] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+14:29:44.076 [http-nio-18092-exec-7] DEBUG o.s.w.s.DispatcherServlet - GET "/chating", parameters={}
+14:29:44.076 [http-nio-18092-exec-7] DEBUG o.s.w.s.s.s.WebSocketHandlerMapping - Mapped to org.springframework.web.socket.server.support.WebSocketHttpRequestHandler@5a6482a9
+14:29:44.076 [http-nio-18092-exec-7] DEBUG o.s.w.s.s.s.WebSocketHttpRequestHandler - GET /chating
+14:29:44.077 [http-nio-18092-exec-7] DEBUG o.s.w.s.DispatcherServlet - Completed 101 SWITCHING_PROTOCOLS
+14:29:44.078 [http-nio-18092-exec-7] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - New StandardWebSocketSession[id=13540752-88da-fb6b-44c0-8ebf81444829, uri=ws://localhost:18092/chating]
+14:30:07.810 [http-nio-18092-exec-10] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - StandardWebSocketSession[id=13540752-88da-fb6b-44c0-8ebf81444829, uri=ws://localhost:18092/chating] closed with CloseStatus[code=1000, reason=null]
+14:30:11.634 [http-nio-18092-exec-1] DEBUG o.s.w.s.DispatcherServlet - GET "/chating", parameters={}
+14:30:11.635 [http-nio-18092-exec-1] DEBUG o.s.w.s.s.s.WebSocketHandlerMapping - Mapped to org.springframework.web.socket.server.support.WebSocketHttpRequestHandler@5a6482a9
+14:30:11.635 [http-nio-18092-exec-1] DEBUG o.s.w.s.s.s.WebSocketHttpRequestHandler - GET /chating
+14:30:11.636 [http-nio-18092-exec-1] DEBUG o.s.w.s.DispatcherServlet - Completed 101 SWITCHING_PROTOCOLS
+14:30:11.637 [http-nio-18092-exec-1] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - New StandardWebSocketSession[id=4025f3a7-9276-bdab-580b-4b3e1f30b3dd, uri=ws://localhost:18092/chating]
+14:30:28.010 [http-nio-18092-exec-8] DEBUG o.s.w.s.DispatcherServlet - GET "/chat", parameters={}
+14:30:28.011 [http-nio-18092-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.webapp.webscoket.controller.MainController#frontChat(Map, HttpServletRequest, HttpServletResponse, ModelMap)
+14:30:28.012 [http-nio-18092-exec-8] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+14:30:28.012 [http-nio-18092-exec-8] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+14:30:28.016 [http-nio-18092-exec-9] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - StandardWebSocketSession[id=4025f3a7-9276-bdab-580b-4b3e1f30b3dd, uri=ws://localhost:18092/chating] closed with CloseStatus[code=1001, reason=null]
+14:30:29.795 [http-nio-18092-exec-10] DEBUG o.s.w.s.DispatcherServlet - GET "/chat", parameters={}
+14:30:29.795 [http-nio-18092-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.webapp.webscoket.controller.MainController#frontChat(Map, HttpServletRequest, HttpServletResponse, ModelMap)
+14:30:29.796 [http-nio-18092-exec-10] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+14:30:29.797 [http-nio-18092-exec-10] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+14:30:29.800 [http-nio-18092-exec-1] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - StandardWebSocketSession[id=f3144629-bf6f-b6d9-7bd3-318d23ab17b0, uri=ws://localhost:18092/chating] closed with CloseStatus[code=1001, reason=null]
+14:30:33.467 [http-nio-18092-exec-2] DEBUG o.s.w.s.DispatcherServlet - GET "/chating", parameters={}
+14:30:33.467 [http-nio-18092-exec-2] DEBUG o.s.w.s.s.s.WebSocketHandlerMapping - Mapped to org.springframework.web.socket.server.support.WebSocketHttpRequestHandler@5a6482a9
+14:30:33.467 [http-nio-18092-exec-2] DEBUG o.s.w.s.s.s.WebSocketHttpRequestHandler - GET /chating
+14:30:33.468 [http-nio-18092-exec-2] DEBUG o.s.w.s.DispatcherServlet - Completed 101 SWITCHING_PROTOCOLS
+14:30:33.469 [http-nio-18092-exec-2] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - New StandardWebSocketSession[id=874715ae-d3b2-f4ac-461e-064a43123e2e, uri=ws://localhost:18092/chating]
+14:30:35.515 [http-nio-18092-exec-4] DEBUG o.s.w.s.DispatcherServlet - GET "/chating", parameters={}
+14:30:35.515 [http-nio-18092-exec-4] DEBUG o.s.w.s.s.s.WebSocketHandlerMapping - Mapped to org.springframework.web.socket.server.support.WebSocketHttpRequestHandler@5a6482a9
+14:30:35.515 [http-nio-18092-exec-4] DEBUG o.s.w.s.s.s.WebSocketHttpRequestHandler - GET /chating
+14:30:35.516 [http-nio-18092-exec-4] DEBUG o.s.w.s.DispatcherServlet - Completed 101 SWITCHING_PROTOCOLS
+14:30:35.516 [http-nio-18092-exec-4] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - New StandardWebSocketSession[id=4514d331-a618-1a29-cab0-1e50cf4c90b6, uri=ws://localhost:18092/chating]
+14:30:44.489 [http-nio-18092-exec-8] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - StandardWebSocketSession[id=4514d331-a618-1a29-cab0-1e50cf4c90b6, uri=ws://localhost:18092/chating] closed with CloseStatus[code=1000, reason=null]
+14:30:47.171 [http-nio-18092-exec-9] DEBUG o.s.w.s.DispatcherServlet - GET "/chating", parameters={}
+14:30:47.171 [http-nio-18092-exec-9] DEBUG o.s.w.s.s.s.WebSocketHandlerMapping - Mapped to org.springframework.web.socket.server.support.WebSocketHttpRequestHandler@5a6482a9
+14:30:47.171 [http-nio-18092-exec-9] DEBUG o.s.w.s.s.s.WebSocketHttpRequestHandler - GET /chating
+14:30:47.172 [http-nio-18092-exec-9] DEBUG o.s.w.s.DispatcherServlet - Completed 101 SWITCHING_PROTOCOLS
+14:30:47.173 [http-nio-18092-exec-9] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - New StandardWebSocketSession[id=b5cece5e-ce25-dde4-8534-8adbe7927fc5, uri=ws://localhost:18092/chating]
+14:33:38.187 [http-nio-18092-exec-5] DEBUG o.s.w.s.DispatcherServlet - GET "/chat", parameters={}
+14:33:38.188 [http-nio-18092-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.webapp.webscoket.controller.MainController#frontChat(Map, HttpServletRequest, HttpServletResponse, ModelMap)
+14:33:38.188 [http-nio-18092-exec-5] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+14:33:38.189 [http-nio-18092-exec-5] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+14:33:38.192 [http-nio-18092-exec-6] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - StandardWebSocketSession[id=874715ae-d3b2-f4ac-461e-064a43123e2e, uri=ws://localhost:18092/chating] closed with CloseStatus[code=1001, reason=null]
+14:33:42.227 [http-nio-18092-exec-7] DEBUG o.s.w.s.DispatcherServlet - GET "/chat", parameters={}
+14:33:42.228 [http-nio-18092-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.webapp.webscoket.controller.MainController#frontChat(Map, HttpServletRequest, HttpServletResponse, ModelMap)
+14:33:42.229 [http-nio-18092-exec-7] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+14:33:42.230 [http-nio-18092-exec-7] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+14:33:42.250 [http-nio-18092-exec-8] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - StandardWebSocketSession[id=b5cece5e-ce25-dde4-8534-8adbe7927fc5, uri=ws://localhost:18092/chating] closed with CloseStatus[code=1001, reason=null]
+14:33:44.511 [http-nio-18092-exec-9] DEBUG o.s.w.s.DispatcherServlet - GET "/chat", parameters={}
+14:33:44.511 [http-nio-18092-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.webapp.webscoket.controller.MainController#frontChat(Map, HttpServletRequest, HttpServletResponse, ModelMap)
+14:33:44.512 [http-nio-18092-exec-9] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+14:33:44.513 [http-nio-18092-exec-9] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+14:33:56.056 [http-nio-18092-exec-10] DEBUG o.s.w.s.DispatcherServlet - GET "/chat", parameters={}
+14:33:56.056 [http-nio-18092-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.webapp.webscoket.controller.MainController#frontChat(Map, HttpServletRequest, HttpServletResponse, ModelMap)
+14:33:56.057 [http-nio-18092-exec-10] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+14:33:56.058 [http-nio-18092-exec-10] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+14:33:57.516 [http-nio-18092-exec-1] DEBUG o.s.w.s.DispatcherServlet - GET "/chat", parameters={}
+14:33:57.516 [http-nio-18092-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.webapp.webscoket.controller.MainController#frontChat(Map, HttpServletRequest, HttpServletResponse, ModelMap)
+14:33:57.517 [http-nio-18092-exec-1] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+14:33:57.518 [http-nio-18092-exec-1] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+14:38:42.502 [http-nio-18092-exec-5] DEBUG o.s.w.s.DispatcherServlet - GET "/chat", parameters={}
+14:38:42.502 [http-nio-18092-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.webapp.webscoket.controller.MainController#frontChat(Map, HttpServletRequest, HttpServletResponse, ModelMap)
+14:38:42.503 [http-nio-18092-exec-5] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+14:38:42.504 [http-nio-18092-exec-5] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+14:38:45.178 [http-nio-18092-exec-6] DEBUG o.s.w.s.DispatcherServlet - GET "/chat", parameters={}
+14:38:45.179 [http-nio-18092-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.webapp.webscoket.controller.MainController#frontChat(Map, HttpServletRequest, HttpServletResponse, ModelMap)
+14:38:45.179 [http-nio-18092-exec-6] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+14:38:45.180 [http-nio-18092-exec-6] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+14:38:46.890 [http-nio-18092-exec-7] DEBUG o.s.w.s.DispatcherServlet - GET "/chating", parameters={}
+14:38:46.891 [http-nio-18092-exec-7] DEBUG o.s.w.s.s.s.WebSocketHandlerMapping - Mapped to org.springframework.web.socket.server.support.WebSocketHttpRequestHandler@5a6482a9
+14:38:46.891 [http-nio-18092-exec-7] DEBUG o.s.w.s.s.s.WebSocketHttpRequestHandler - GET /chating
+14:38:46.892 [http-nio-18092-exec-7] DEBUG o.s.w.s.DispatcherServlet - Completed 101 SWITCHING_PROTOCOLS
+14:38:46.893 [http-nio-18092-exec-7] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - New StandardWebSocketSession[id=cad8f7e4-ba42-f1ff-efc7-0ab3d6923f43, uri=ws://localhost:18092/chating]
+14:38:49.058 [http-nio-18092-exec-9] DEBUG o.s.w.s.DispatcherServlet - GET "/chating", parameters={}
+14:38:49.058 [http-nio-18092-exec-9] DEBUG o.s.w.s.s.s.WebSocketHandlerMapping - Mapped to org.springframework.web.socket.server.support.WebSocketHttpRequestHandler@5a6482a9
+14:38:49.059 [http-nio-18092-exec-9] DEBUG o.s.w.s.s.s.WebSocketHttpRequestHandler - GET /chating
+14:38:49.059 [http-nio-18092-exec-9] DEBUG o.s.w.s.DispatcherServlet - Completed 101 SWITCHING_PROTOCOLS
+14:38:49.060 [http-nio-18092-exec-9] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - New StandardWebSocketSession[id=3fe1a823-0a59-bd40-8ce4-dc0d31dac7d9, uri=ws://localhost:18092/chating]
+14:39:02.923 [http-nio-18092-exec-3] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - StandardWebSocketSession[id=cad8f7e4-ba42-f1ff-efc7-0ab3d6923f43, uri=ws://localhost:18092/chating] closed with CloseStatus[code=1001, reason=null]
+14:40:39.398 [RMI TCP Connection(2)-127.0.0.1] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - StandardWebSocketSession[id=3fe1a823-0a59-bd40-8ce4-dc0d31dac7d9, uri=ws://localhost:18092/chating] closed with CloseStatus[code=1001, reason=The web application is stopping]
+14:40:44.208 [main] DEBUG o.s.w.s.s.s.WebSocketHandlerMapping - Patterns [/chating] in 'webSocketHandlerMapping'
+14:40:44.304 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+14:40:44.340 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 4 mappings in 'requestMappingHandlerMapping'
+14:40:44.357 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+14:40:44.362 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+14:41:17.930 [http-nio-18092-exec-1] INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:41:17.931 [http-nio-18092-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected StandardServletMultipartResolver
+14:41:17.931 [http-nio-18092-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+14:41:17.931 [http-nio-18092-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected FixedThemeResolver
+14:41:17.932 [http-nio-18092-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@640337f1
+14:41:17.932 [http-nio-18092-exec-1] DEBUG o.s.w.s.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@2d983148
+14:41:17.932 [http-nio-18092-exec-1] DEBUG o.s.w.s.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+14:41:17.932 [http-nio-18092-exec-1] INFO  o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+14:41:17.939 [http-nio-18092-exec-1] DEBUG o.s.w.s.DispatcherServlet - GET "/chat", parameters={}
+14:41:17.942 [http-nio-18092-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.webapp.webscoket.controller.MainController#frontChat(Map, HttpServletRequest, HttpServletResponse, ModelMap)
+14:41:17.957 [http-nio-18092-exec-1] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+14:41:18.156 [http-nio-18092-exec-1] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+14:41:20.914 [http-nio-18092-exec-2] DEBUG o.s.w.s.DispatcherServlet - GET "/chating", parameters={}
+14:41:20.916 [http-nio-18092-exec-2] DEBUG o.s.w.s.s.s.WebSocketHandlerMapping - Mapped to org.springframework.web.socket.server.support.WebSocketHttpRequestHandler@633fd91
+14:41:20.920 [http-nio-18092-exec-2] DEBUG o.s.w.s.s.s.WebSocketHttpRequestHandler - GET /chating
+14:41:20.943 [http-nio-18092-exec-2] DEBUG o.s.w.s.DispatcherServlet - Completed 101 SWITCHING_PROTOCOLS
+14:41:20.954 [http-nio-18092-exec-2] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - New StandardWebSocketSession[id=9aac3983-7105-dc68-7d54-0f55791e2bb6, uri=ws://localhost:18092/chating]
+14:41:23.337 [http-nio-18092-exec-3] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - StandardWebSocketSession[id=9aac3983-7105-dc68-7d54-0f55791e2bb6, uri=ws://localhost:18092/chating] closed with CloseStatus[code=1000, reason=null]
+14:42:45.649 [http-nio-18092-exec-5] DEBUG o.s.w.s.DispatcherServlet - GET "/chating", parameters={}
+14:42:45.650 [http-nio-18092-exec-5] DEBUG o.s.w.s.s.s.WebSocketHandlerMapping - Mapped to org.springframework.web.socket.server.support.WebSocketHttpRequestHandler@633fd91
+14:42:45.650 [http-nio-18092-exec-5] DEBUG o.s.w.s.s.s.WebSocketHttpRequestHandler - GET /chating
+14:42:45.651 [http-nio-18092-exec-5] DEBUG o.s.w.s.DispatcherServlet - Completed 101 SWITCHING_PROTOCOLS
+14:42:45.651 [http-nio-18092-exec-5] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - New StandardWebSocketSession[id=78d5d806-3317-e72d-c7cf-1438c603b591, uri=ws://localhost:18092/chating]
+14:43:04.188 [http-nio-18092-exec-6] DEBUG o.s.w.s.DispatcherServlet - GET "/chat", parameters={}
+14:43:04.188 [http-nio-18092-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.webapp.webscoket.controller.MainController#frontChat(Map, HttpServletRequest, HttpServletResponse, ModelMap)
+14:43:04.189 [http-nio-18092-exec-6] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+14:43:04.191 [http-nio-18092-exec-6] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+14:43:07.262 [http-nio-18092-exec-7] DEBUG o.s.w.s.DispatcherServlet - GET "/chating", parameters={}
+14:43:07.263 [http-nio-18092-exec-7] DEBUG o.s.w.s.s.s.WebSocketHandlerMapping - Mapped to org.springframework.web.socket.server.support.WebSocketHttpRequestHandler@633fd91
+14:43:07.263 [http-nio-18092-exec-7] DEBUG o.s.w.s.s.s.WebSocketHttpRequestHandler - GET /chating
+14:43:07.264 [http-nio-18092-exec-7] DEBUG o.s.w.s.DispatcherServlet - Completed 101 SWITCHING_PROTOCOLS
+14:43:07.264 [http-nio-18092-exec-7] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - New StandardWebSocketSession[id=e1327933-c0e3-e0ab-3c58-7d4b66af9abf, uri=ws://localhost:18092/chating]
+14:43:15.220 [http-nio-18092-exec-7] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - StandardWebSocketSession[id=e1327933-c0e3-e0ab-3c58-7d4b66af9abf, uri=ws://localhost:18092/chating] closed with CloseStatus[code=1000, reason=null]
+14:43:20.081 [http-nio-18092-exec-8] DEBUG o.s.w.s.DispatcherServlet - GET "/chating", parameters={}
+14:43:20.081 [http-nio-18092-exec-8] DEBUG o.s.w.s.s.s.WebSocketHandlerMapping - Mapped to org.springframework.web.socket.server.support.WebSocketHttpRequestHandler@633fd91
+14:43:20.081 [http-nio-18092-exec-8] DEBUG o.s.w.s.s.s.WebSocketHttpRequestHandler - GET /chating
+14:43:20.082 [http-nio-18092-exec-8] DEBUG o.s.w.s.DispatcherServlet - Completed 101 SWITCHING_PROTOCOLS
+14:43:20.083 [http-nio-18092-exec-8] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - New StandardWebSocketSession[id=237866f8-ba37-b237-d10c-b0c919de71ed, uri=ws://localhost:18092/chating]
+14:43:23.349 [http-nio-18092-exec-9] DEBUG o.s.w.s.DispatcherServlet - GET "/chat", parameters={}
+14:43:23.349 [http-nio-18092-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.webapp.webscoket.controller.MainController#frontChat(Map, HttpServletRequest, HttpServletResponse, ModelMap)
+14:43:23.350 [http-nio-18092-exec-9] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+14:43:23.350 [http-nio-18092-exec-9] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+14:43:23.354 [http-nio-18092-exec-10] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - StandardWebSocketSession[id=237866f8-ba37-b237-d10c-b0c919de71ed, uri=ws://localhost:18092/chating] closed with CloseStatus[code=1001, reason=null]
+14:43:24.047 [http-nio-18092-exec-1] DEBUG o.s.w.s.DispatcherServlet - GET "/chat", parameters={}
+14:43:24.047 [http-nio-18092-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.webapp.webscoket.controller.MainController#frontChat(Map, HttpServletRequest, HttpServletResponse, ModelMap)
+14:43:24.048 [http-nio-18092-exec-1] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+14:43:24.049 [http-nio-18092-exec-1] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+14:43:24.053 [http-nio-18092-exec-2] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - StandardWebSocketSession[id=78d5d806-3317-e72d-c7cf-1438c603b591, uri=ws://localhost:18092/chating] closed with CloseStatus[code=1001, reason=null]
+14:43:26.537 [http-nio-18092-exec-3] DEBUG o.s.w.s.DispatcherServlet - GET "/chating", parameters={}
+14:43:26.538 [http-nio-18092-exec-3] DEBUG o.s.w.s.s.s.WebSocketHandlerMapping - Mapped to org.springframework.web.socket.server.support.WebSocketHttpRequestHandler@633fd91
+14:43:26.538 [http-nio-18092-exec-3] DEBUG o.s.w.s.s.s.WebSocketHttpRequestHandler - GET /chating
+14:43:26.539 [http-nio-18092-exec-3] DEBUG o.s.w.s.DispatcherServlet - Completed 101 SWITCHING_PROTOCOLS
+14:43:26.539 [http-nio-18092-exec-3] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - New StandardWebSocketSession[id=3578d7ab-e583-6c8d-019b-d87e95ff1c05, uri=ws://localhost:18092/chating]
+14:43:28.816 [http-nio-18092-exec-5] DEBUG o.s.w.s.DispatcherServlet - GET "/chating", parameters={}
+14:43:28.817 [http-nio-18092-exec-5] DEBUG o.s.w.s.s.s.WebSocketHandlerMapping - Mapped to org.springframework.web.socket.server.support.WebSocketHttpRequestHandler@633fd91
+14:43:28.817 [http-nio-18092-exec-5] DEBUG o.s.w.s.s.s.WebSocketHttpRequestHandler - GET /chating
+14:43:28.818 [http-nio-18092-exec-5] DEBUG o.s.w.s.DispatcherServlet - Completed 101 SWITCHING_PROTOCOLS
+14:43:28.818 [http-nio-18092-exec-5] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - New StandardWebSocketSession[id=fa8f0a21-1d34-8cb0-a87c-35a09968e6ea, uri=ws://localhost:18092/chating]
+14:45:13.664 [http-nio-18092-exec-7] DEBUG o.s.w.s.DispatcherServlet - GET "/chat", parameters={}
+14:45:13.665 [http-nio-18092-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.webapp.webscoket.controller.MainController#frontChat(Map, HttpServletRequest, HttpServletResponse, ModelMap)
+14:45:13.666 [http-nio-18092-exec-7] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+14:45:13.666 [http-nio-18092-exec-7] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+14:45:13.687 [http-nio-18092-exec-8] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - StandardWebSocketSession[id=fa8f0a21-1d34-8cb0-a87c-35a09968e6ea, uri=ws://localhost:18092/chating] closed with CloseStatus[code=1001, reason=null]
+14:45:15.217 [http-nio-18092-exec-9] DEBUG o.s.w.s.DispatcherServlet - GET "/chating", parameters={}
+14:45:15.217 [http-nio-18092-exec-9] DEBUG o.s.w.s.s.s.WebSocketHandlerMapping - Mapped to org.springframework.web.socket.server.support.WebSocketHttpRequestHandler@633fd91
+14:45:15.217 [http-nio-18092-exec-9] DEBUG o.s.w.s.s.s.WebSocketHttpRequestHandler - GET /chating
+14:45:15.218 [http-nio-18092-exec-9] DEBUG o.s.w.s.DispatcherServlet - Completed 101 SWITCHING_PROTOCOLS
+14:45:15.219 [http-nio-18092-exec-9] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - New StandardWebSocketSession[id=c7f0478b-8b01-95cc-32b0-71c04012541c, uri=ws://localhost:18092/chating]
+14:45:23.054 [http-nio-18092-exec-5] DEBUG o.s.w.s.DispatcherServlet - GET "/chat", parameters={}
+14:45:23.055 [http-nio-18092-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.webapp.webscoket.controller.MainController#frontChat(Map, HttpServletRequest, HttpServletResponse, ModelMap)
+14:45:23.056 [http-nio-18092-exec-5] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8]
+14:45:23.057 [http-nio-18092-exec-5] DEBUG o.s.w.s.DispatcherServlet - Completed 200 OK
+14:45:23.060 [http-nio-18092-exec-6] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - StandardWebSocketSession[id=3578d7ab-e583-6c8d-019b-d87e95ff1c05, uri=ws://localhost:18092/chating] closed with CloseStatus[code=1001, reason=null]
+14:45:25.497 [http-nio-18092-exec-7] DEBUG o.s.w.s.DispatcherServlet - GET "/chating", parameters={}
+14:45:25.497 [http-nio-18092-exec-7] DEBUG o.s.w.s.s.s.WebSocketHandlerMapping - Mapped to org.springframework.web.socket.server.support.WebSocketHttpRequestHandler@633fd91
+14:45:25.497 [http-nio-18092-exec-7] DEBUG o.s.w.s.s.s.WebSocketHttpRequestHandler - GET /chating
+14:45:25.498 [http-nio-18092-exec-7] DEBUG o.s.w.s.DispatcherServlet - Completed 101 SWITCHING_PROTOCOLS
+14:45:25.499 [http-nio-18092-exec-7] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - New StandardWebSocketSession[id=228f5f95-13b4-e46e-f44e-1fb79a7aa7be, uri=ws://localhost:18092/chating]
+14:45:31.328 [http-nio-18092-exec-3] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - StandardWebSocketSession[id=c7f0478b-8b01-95cc-32b0-71c04012541c, uri=ws://localhost:18092/chating] closed with CloseStatus[code=1000, reason=null]
+14:45:34.128 [http-nio-18092-exec-4] DEBUG o.s.w.s.DispatcherServlet - GET "/chating", parameters={}
+14:45:34.128 [http-nio-18092-exec-4] DEBUG o.s.w.s.s.s.WebSocketHandlerMapping - Mapped to org.springframework.web.socket.server.support.WebSocketHttpRequestHandler@633fd91
+14:45:34.128 [http-nio-18092-exec-4] DEBUG o.s.w.s.s.s.WebSocketHttpRequestHandler - GET /chating
+14:45:34.129 [http-nio-18092-exec-4] DEBUG o.s.w.s.DispatcherServlet - Completed 101 SWITCHING_PROTOCOLS
+14:45:34.130 [http-nio-18092-exec-4] DEBUG o.s.w.s.h.LoggingWebSocketHandlerDecorator - New StandardWebSocketSession[id=cdb950d2-1007-6cbf-d9a5-dad2787a226f, uri=ws://localhost:18092/chating]

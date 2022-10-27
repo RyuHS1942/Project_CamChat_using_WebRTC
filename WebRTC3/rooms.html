@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Room</title>
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+
+    <h1>Room</h1>
+
+    <div id="videos">
+        <video id="localVideo" autoplay muted playsinline></video>
+        <video id="remoteVideo" autoplay muted playsinline></video>
+    </div>
+
+    <div>
+        <input type="button" value="exit" onclick="fnExitRoom()"></input>
+    </div>
+
+
+    <div id="users">
+        <div id="userNum"></div>
+        <div id="userList"></div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+    <script src="js/rooms.js">//connecttion</script>
+</body>
+
+</html>

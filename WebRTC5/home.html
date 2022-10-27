@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Main Page</title>
+
+    <link rel="stylesheet" href="/css/main.css" />
+
+</head>
+
+<body>
+
+    <div class="header">
+        <div>
+            <h1 style="height: 50px; background-color: #203857; color: white;">Main Page</h1>
+        </div>
+    </div>
+
+    <div class="content">
+        <br><input type="button" id="makeRoom" value="makeRoom" onclick="fnMakeRoom()"
+            style="width : 100px; float: left;"></input><br>
+        <div id="container">
+            <!-- context-->
+        </div>
+    </div>
+
+    <div class="footer">
+
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+    <script src="js/home.js"></script>
+
+</body>
+
+</html>
